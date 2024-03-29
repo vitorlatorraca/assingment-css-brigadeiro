@@ -1,0 +1,105 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply custom font */
+body {
+    font-family: 'YourCustomFont', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #322e2f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Candy info section */
+.candy-info {
+    text-align: center;
+    color: #322e2f;
+}
+
+.candy-info h2 {
+    margin-bottom: 15px;
+}
+
+.candy-info p {
+    margin-bottom: 10px;
+}
+
+.candy-info img {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Contact form styles */
+.contact-form {
+    margin-top: 50px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #322e2f;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a0867;
+}
+
+footer {
+    background-color: #322e2f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
